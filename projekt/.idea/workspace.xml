@@ -3,18 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="40f12448-0d2d-4af4-b5b0-ebf23d81be0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram_web/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram_web/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram_web/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/instakilogram_web/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projekt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projekt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/migrations/0002_post_description_post_upload_post_year.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/instakilogram_web/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/uploads/DjangoLab1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/uploads/Python.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,26 +37,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XuEdEcHxA8rwXgM0ON8Nl24N1L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Django Server.projekt">
     <configuration name="lab2" type="Python.DjangoServer" factoryName="Django server">
       <module name="lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="projekt" type="Python.DjangoServer" factoryName="Django server">
+      <module name="projekt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699470650755</updated>
       <workItem from="1699470651874" duration="98000" />
+      <workItem from="1699471107155" duration="133000" />
     </task>
     <servers />
   </component>
