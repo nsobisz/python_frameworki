@@ -15,27 +15,28 @@
 </head>
 <body>
 <header>
-        <div class="container">
+
             <div class="profile-picture">
                 <img src="/media/{{ user.imgThumb }}"  alt="Profile Picture">
             </div>
             <div class="profile-info">
-                <h1>{{ user.username }}</h1>
+                <p class="username">{{ user.username }}</p>
+                <p>{{ user.description }}</p>
 
             </div>
-        </div>
+
     </header>
 
     <main>
-        <div class="container">
-            <section class="user-posts">
+
+            <div class="user-posts">
                 {% for post in posts %}
                 <div class="post">
                     <img src="/media/{{ post.imgThumb }}" alt="Post Image">
                 </div>
                 {% endfor %}
-            </section>
-        </div>
+            </div>
+
     </main>
 
 

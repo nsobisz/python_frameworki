@@ -13,7 +13,7 @@ class Insta_users(models.Model):
     imgThumb = models.ImageField(upload_to="media_img", null=True, blank=True)
     first_name = models.CharField(max_length=30, blank=True)
     last_name = models.CharField(max_length=30, blank=True)
-    description = models.TextField(blank=True)
+    description = models.TextField(max_length=150,blank=True)
     gender = models.CharField(max_length=10, choices=[('male', 'Male'), ('female', 'Female'), ('other', 'Other')],
                               blank=True)
 
