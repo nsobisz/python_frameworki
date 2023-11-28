@@ -19,14 +19,13 @@ from django.urls import path, include
 
 from django.contrib import admin
 from django.urls import path, include
-from instakilogram_web.views import test_response, testORM
+from instakilogram_web.views import testORM
 from django.conf.urls.static import static
 from django.conf import settings
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', test_response),
     path('test-orm/', testORM),
     path('instakilogram/', include("instakilogram_web.urls"))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static 'instakilogram_login.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
     <title>{{ title }}</title>
 </head>
 <body>
@@ -20,9 +19,8 @@
       <div id="login-logo">
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
       </div>
-      <form id="login-form" method="post" action="{% url 'login' %}">
+      <form id="login-form" method="post" action="{% url 'register' %}">
           {% csrf_token %}
-
         <div class="field">
           <label class="label">Nazwa użytkownika</label>
           <div class="control">
@@ -33,13 +31,18 @@
         <div class="field">
           <label class="label">Hasło</label>
           <div class="control">
-            {{ form.password }}
+            {{ form.password}}
           </div>
         </div>
-
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            {{ form.email}}
+          </div>
+        </div>
         <div class="field">
           <div class="control">
-            <button class="button is-info is-fullwidth" type="submit">Zaloguj się</button>
+            <button class="button is-info is-fullwidth">Zarejestruj się</button>
           </div>
         </div>
       </form>

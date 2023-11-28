@@ -23,10 +23,15 @@
                     <p>{{ user.username }}    </p>
                     <div class="buttons">
                             <button class="button is-info">Obserwuj</button>
-                            <button class="button is-dark">Wyślij wiadomość</button>
+
                         <button class="button is-dark">
                             <span class="material-symbols-outlined">person_add</span></i></i>
                         </button>
+                        <a href="{% url 'user_edit' username=user.username %}"> <button class="button is-dark">Edytuj profil</button> </a>
+                        <form method="post">
+                            {% csrf_token %}
+                        <button class="button is-dark" type="submit">Usuń profil</button>
+                        </form>
                     </div>
                 </div>
                 <div class="profile-observe">

@@ -1,0 +1,36 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+
+body {
+      background-color: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+#edit-container {
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+#edit-form {
+      margin-bottom: 20px;
+    }
+
+#edit-logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+.edit_user{
+
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

@@ -1,8 +1,10 @@
 from django.urls import path
-from instakilogram_web.views import test_response, user_profile, login, testORM
+from instakilogram_web.views import user_profile, login, register, user_edit
 
 urlpatterns = [
-    path('test/', test_response),
+
     path('profile/<username>/', user_profile, name='user_profile'),
-    path('login/', login),
+    path('edit/<username>/', user_edit, name='user_edit'),
+    path('login/', login, name="login"),
+    path('register/', register, name = "register"),
 ]

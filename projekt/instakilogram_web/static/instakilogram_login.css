@@ -1,0 +1,47 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+
+body {
+      background-color: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+#login-container {
+      display: flex;
+      max-width: 800px;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+#phone-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+#phone-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+#login-form-container {
+      flex: 1;
+      padding: 20px;
+    }
+
+#login-logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+#login-form {
+      margin-bottom: 20px;
+    }
