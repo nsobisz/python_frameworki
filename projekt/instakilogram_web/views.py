@@ -38,7 +38,7 @@ def user_edit(request, username):
         if form.is_valid():
             user = form.save(commit=False)
             user.save()
-            return redirect('login')
+            return redirect(reverse('user_profile', kwargs={'username': username}))
     else:
         form = EditForm(instance=user)
 
