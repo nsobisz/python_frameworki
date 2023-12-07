@@ -15,7 +15,7 @@
       <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
     </div>
   <div class="edit_user"> Zmień dane użytkownika {{ user.username }}</div>
-    <form id="edit-form"  method="post" action="{% url 'user_edit' username=user.username%}">
+    <form id="edit-form"  method="post"  enctype="multipart/form-data" action="{% url 'user_edit' username=user.username%}">
          {% csrf_token %}
       <div class="field">
         <label class="label">Email</label>

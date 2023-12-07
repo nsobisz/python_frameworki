@@ -34,7 +34,7 @@ def user_edit(request, username):
     user = get_object_or_404(Insta_users, username=username)
 
     if request.method == 'POST':
-        form = EditForm(request.POST, instance=user)
+        form = EditForm(request.POST, request.FILES, instance=user)
         if form.is_valid():
             user = form.save(commit=False)
             user.save()

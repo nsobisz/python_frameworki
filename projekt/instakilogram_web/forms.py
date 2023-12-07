@@ -21,7 +21,7 @@ class EditForm(forms.ModelForm):
     choices=(('male', 'Male'), ('female', 'Female'), ('other', 'Other')))
     class Meta:
         model = Insta_users
-        fields = ["email", "password","last_name", "first_name","description", "gender", "imgThumb"]
+        fields = ["email", "password", "imgThumb", "last_name", "first_name","description", "gender",]
 
 class LoginForm(forms.Form):
     username = forms.CharField(label='Nazwa użytkownika', widget=forms.TextInput(attrs={'class': 'input'}))
